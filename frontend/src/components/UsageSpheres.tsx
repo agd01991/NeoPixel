@@ -46,7 +46,7 @@ export default function UsageSpheres() {
                 </div>
             </div>
             <div className='p-7 w-[420px]'>
-                <img className='w-[250px] h-[250px] mx-auto' src={require('../assets/printers/thirdPrinter.png')} alt="" />
+                <img className='w-[180px] h-[280px] mx-auto' src={require('../assets/printers/thirdPrinter.png')} alt="" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Heliodorus (H Lite / H Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
                     <div className='underline cursor-pointer'>Подробнее</div>
