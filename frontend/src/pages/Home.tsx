@@ -1,6 +1,9 @@
 import React from 'react'
+import AddOrder from '../components/AddOrder'
 import Banner from '../components/Banner'
 import Events from '../components/Events'
+import Gallery from '../components/Gallery'
+import QA from '../components/QA'
 import UsageSpheres from '../components/UsageSpheres'
 
 export default function Home() {
@@ -9,6 +12,9 @@ export default function Home() {
       <Banner />
       <UsageSpheres />
       <Events />
+      <Gallery/>
+      <AddOrder/>
+      <QA/>
     </div>
   )
 }

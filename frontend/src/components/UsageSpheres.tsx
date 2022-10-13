@@ -10,17 +10,17 @@ export default function UsageSpheres() {
             <div className='text-[18px] leading-[27px] text-[#CECECE] w-[800px]'>
                 <div className=''>Фотополимерная печать используется в тех отраслях, где подходит по следующим факторам: качество, точность построения, физические свойства и максимальные габариты создаваемого изделия</div>
                 <div className='grid grid-cols-3 whitespace-nowrap'>
-                    <ul>
+                    <ul className='sf'>
                         <li>ювелирное дело</li>
                         <li>стоматология</li>
                         <li>машиностроение</li>
                     </ul>
-                    <ul>
+                    <ul className='sf'>
                         <li>медицина</li>
                         <li>автомобилестроение</li>
                         <li>архитектура</li>
                     </ul>
-                    <ul>
+                    <ul className='sf'>
                         <li>прототипирование</li>
                         <li>текстильная промышленность</li>
                         <li>обувная промышленность</li>
@@ -28,8 +28,8 @@ export default function UsageSpheres() {
                 </div>
             </div>
         </div>
-        <div className='flex gap-12 justify-around max-w-7xl mx-auto text-white bg-red-600'>
-            <div className='p-7 w-[420px]'>
+        <div className='flex gap-12 justify-around max-w-7xl mx-auto text-white'>
+            <div className='p-7 w-[420px] h-[450px] shadow-3xl '>
                 <img className='w-[250px] h-[250px] mx-auto' src={require('../assets/printers/firstPrinter.png')} alt="" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Ruby (R Lite / R Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
@@ -37,7 +37,7 @@ export default function UsageSpheres() {
                     <button className='px-5 py-1 border border-[#26AAE1] rounded-full cursor-pointer'>Заказать</button>
                 </div>
             </div>
-            <div className='p-7 w-[420px]'>
+            <div className='p-7 w-[420px] shadow-3xl'>
                 <img className='w-[250px] h-[400px] mx-auto' src={require('../assets/printers/secondPrinter.png')} alt="" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Sapphire (S Lite / S Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
@@ -45,8 +45,8 @@ export default function UsageSpheres() {
                     <button className='px-5 py-1 border border-[#26AAE1] rounded-full cursor-pointer'>Заказать</button>
                 </div>
             </div>
-            <div className='p-7 w-[420px]'>
-                <img className='w-[180px] h-[280px] mx-auto' src={require('../assets/printers/thirdPrinter.png')} alt="" />
+            <div className='p-7 w-[420px] h-[450px] shadow-3xl'>
+                <img className='w-[250px] h-[250px] mx-auto' src={require('../assets/printers/thirdPrinter.png')} alt="" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Heliodorus (H Lite / H Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
                     <div className='underline cursor-pointer'>Подробнее</div>
