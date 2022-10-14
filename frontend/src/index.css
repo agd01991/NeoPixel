@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
 }
 ul {
@@ -38,4 +38,12 @@ nav {
   font-weight: 700;
 font-size: 20px;
 line-height: 24px;
+}
+
+@layer base {
+  @font-face {
+    font-family: HelveticaNeueCyr;
+    font-weight: 400;
+    src: url(../HelveticaNeueCyr/helveticaneuecyr_black.otf) format("otf");
+  }
 }
