@@ -13,9 +13,9 @@ const Footer = () => {
             </div>
             
             <div className='absolute flex gap-3 justify-around  mx-auto text-white pt-[300px] w-full'>      
-             <div className='text-5xl font-HelveticaNeueCyr font-semibold text-white'><img src={tel} className='float-left px-5 py-4'/>8-985-192-48-93</div>
+             <div className='text-5xl font-HelveticaNeueCyr font-semibold text-white'><img src={tel} className='float-left px-5 py-3'/>8-985-192-48-93</div>
              <div className='text-5xl font-HelveticaNeueCyr font-semibold text-white'><img src={email} className='float-left px-5 py-4'/>max.bogush@mail.ru</div>
-             <div className='text-5xl font-HelveticaNeueCyr font-semibold text-white'><img src={inst} className='float-left px-5 py-4'/>@hive_3d</div>
+             <div className='text-5xl font-HelveticaNeueCyr font-semibold text-white'><img src={inst} className='float-left px-5 py-3'/>@hive_3d</div>
              </div>   
              <img src={foot} alt="" />
 

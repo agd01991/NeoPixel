@@ -6,9 +6,10 @@ import Video from './banner/Video'
 export default function Banner() {
   return (
     <div className='relative'>
-        <Video />
+
         <Navbar/>
         <Description />
+        <Video />
     </div>
   )
 }

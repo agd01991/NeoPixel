@@ -1,22 +1,22 @@
 import React from 'react'
-import AddOrder from '../components/AddOrder'
-import Banner from '../components/Banner'
+import AddOrderMob from '../components/AddOrderMob'
+import BannerMob from '../components/BannerMob'
 import Events from '../components/Events'
-import Footer from '../components/Footer'
+import FooterMob from '../components/FooterMob'
 import Gallery from '../components/Gallery'
 import QA from '../components/QA'
-import UsageSpheres from '../components/UsageSpheres'
+import UsageSpheresMob from '../components/UsageSpheresMob'
 
 export default function Home() {
   return (
     <div>
-      <Banner />
-      <UsageSpheres />
-      <Events />
-      <Gallery/>
-      <AddOrder/>
-      <QA/>
-      <Footer/>
+      <BannerMob />
+      <UsageSpheresMob />
+      {/* <Events />
+      <Gallery/> */}
+      <AddOrderMob/>
+      {/* <QA/> */}
+      <FooterMob/>
     </div>
   )
 }

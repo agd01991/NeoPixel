@@ -11,7 +11,7 @@ export default function Navbar() {
             <img src={logo} alt="" />
         </div>
         <div>
-          <nav className="flex flex-row gap-10 items-center text-white leading-6 text-xl">
+          <nav className="flex flex-row gap-10 items-center text-white  leading-6 text-xl ">
             <NavLink to="" className="text-blue-500">Главная</NavLink>
             <NavLink to="printers" className="hover:text-blue-600">Принтеры</NavLink>
             <NavLink to="/404" className="hover:text-blue-600">Мероприятия</NavLink>
