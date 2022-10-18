@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Description() {
   return (
-    <div className='absolute w-full bottom-[170px]'>
+    <div className='absolute w-full bottom-[170px] '>
         <div className='max-w-7xl mx-auto'>
             <h1 className='uppercase text-white text-6xl font-semibold'>Точность. <span className='text-[#26AAE1]'>Превосходство.</span> Технологичность</h1>
             <div className='flex items-center justify-between mt-5'>
