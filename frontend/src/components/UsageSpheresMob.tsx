@@ -30,7 +30,7 @@ export default function UsageSpheresMob() {
         </div>
         <div className=' mx-auto text-white laptop:flex laptop:gap-12 laptop:justify-around laptop:max-w-7xl laptop:mx-auto'>
             <div className='p-7 w-md h-md shadow-md laptop:w-[420px] laptop:h-[450px] laptop:shadow-2xl '>
-                <img className='w-[50px] h-[50px] mx-auto laptop:w-[250px] laptop:h-[250px]' src={require('../assets/printers/firstPrinter.png')} alt="" />
+                <img className='w-[50px] h-[50px] mx-auto laptop:w-[250px] laptop:h-[250px]' src={require('../assets/printers/firstPrinter.png')} alt="p1" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Ruby (R Lite / R Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
                     <div className='underline cursor-pointer'>Подробнее</div>
@@ -38,7 +38,7 @@ export default function UsageSpheresMob() {
                 </div>
             </div>
             <div className='p-7 w-md shadow-md laptop:w-[420px] laptop:shadow-2xl'>
-                <img className='w-[50px] h-[40px] mx-auto laptop:w-[250px] laptop:h-[400px]' src={require('../assets/printers/secondPrinter.png')} alt="" />
+                <img className='w-[50px] h-[40px] mx-auto laptop:w-[250px] laptop:h-[400px]' src={require('../assets/printers/secondPrinter.png')} alt="p2" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Sapphire (S Lite / S Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
                     <div className='underline cursor-pointer'>Подробнее</div>
@@ -46,7 +46,7 @@ export default function UsageSpheresMob() {
                 </div>
             </div>
             <div className='p-7 w-md h-md shadow-md laptop:w-[420px] laptop:h-[450px] laptop:hadow-2xl'>
-                <img className='w-[50px] h-[50px] mx-auto laptop:w-[250px] laptop:h-[250px]' src={require('../assets/printers/thirdPrinter.png')} alt="" />
+                <img className='w-[50px] h-[50px] mx-auto laptop:w-[250px] laptop:h-[250px]' src={require('../assets/printers/thirdPrinter.png')} alt="p3" />
                 <h1 className='text-[25px] leading-[27px] mt-8'>Heliodorus (H Lite / H Pro)</h1>
                 <div className='flex items-center justify-between text-[18px] leading-[22px] mt-10'>
                     <div className='underline cursor-pointer'>Подробнее</div>
