@@ -64,7 +64,7 @@ const AddOrderMob = () => {
     w-full
     laptop:h-[75px]
     laptop:w-[400px]
-      bg-blue-600
+      bg-[#26AAE1]
       text-white
       font-medium
       text-lg
@@ -78,7 +78,7 @@ const AddOrderMob = () => {
       transition
       duration-150
       ease-in-out
-      mb-6">Оставить заявку</button>
+      mb-6 shadow-2xl shadow-[#0D5675B2] ">Оставить заявку</button>
       </div>
     <div class="form-group form-check text-center mb-6">
       <input type="checkbox"
