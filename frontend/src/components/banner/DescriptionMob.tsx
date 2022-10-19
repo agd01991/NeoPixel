@@ -7,7 +7,7 @@ export default function DescriptionMob() {
             <h1 className='uppercase text-white text-lg font-semibold laptop:text-6xl'>Точность. <span className='text-[#26AAE1]'>Превосходство.</span> Технологичность</h1>
             <div className='flex items-center justify-center laptop:justify-between laptop:mt-5'>
                 <h3 className='text-[#CECECE] text-2xl'>Первый отечественный фотополимерный 3D-принтер повышенной точности</h3>
-                <button className='px-8 py-2 text-[25px] leading-[30px] text-white bg-[#26AAE1] rounded-full text-center absolute laptop:relative invisible laptop:visible'>Заказать</button>
+                <button className='px-8 py-2 text-[25px] leading-[30px] text-white bg-[#26AAE1] rounded-full text-center absolute laptop:relative invisible laptop:visible shadow-2xl shadow-[#0D5675B2] '>Заказать</button>
 
             </div>
         </div>
