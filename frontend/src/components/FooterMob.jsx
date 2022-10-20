@@ -16,7 +16,7 @@ const FooterMob = () => {
             
             <div className='absolute grid grid-cols-1 gap-3  mx-auto text-white pt-[90px] place-items-center w-full laptop:flex laptop:gap-3 laptop:justify-around laptop:pt-[300px]'>      
              <div className=' text-lg font-HelveticaNeueCyr font-semibold text-white laptop:text-5xl'><img src={tel} alt='tel' className='float-left mx-3 laptop:px-5 laptop:py-3'/>8-985-192-48-93</div>
-             <div className='text-lg font-HelveticaNeueCyr font-semibold text-white laptop:text-5xl'><img src={email} alt='email' className='float-left  mx-3 laptop:px-5 laptop:py-3'/>max.bogush@mail.ru</div>
+             <div className='text-lg font-HelveticaNeueCyr font-semibold text-white laptop:text-5xl'><img src={email} alt='email' className='float-left  mx-3 laptop:px-5 laptop:py-3'/>maks.bogush@neopixel3d.ru</div>
              <div className='text-lg font-HelveticaNeueCyr font-semibold text-white laptop:text-5xl'><img src={inst} alt='inst' className='float-left  mx-3 laptop:px-5 laptop:py-3 '/>@neopixel_3d</div>
              </div>   
 
