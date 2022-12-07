@@ -1,4 +1,4 @@
-package models
+package model
 
 type TodoList struct {
 	Id          int    `json:"Id"`

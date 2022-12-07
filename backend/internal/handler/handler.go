@@ -1,16 +1,16 @@
-package handlers
+package handler
 
 import (
-	"github.com/COOPSPROFI/NeoPixel/internal/services"
+	"github.com/COOPSPROFI/NeoPixel/internal/service"
 	"github.com/gin-gonic/gin"
 )
 
 type Handler struct {
-	services *services.Service
+	service *service.Service
 }
 
-func NewHandler(services *services.Service) *Handler {
-	return &Handler{services: services}
+func NewHandler(services *service.Service) *Handler {
+	return &Handler{service: services}
 }
 
 func (h *Handler) InitRoutes() *gin.Engine {
@@ -23,7 +23,7 @@ func (h *Handler) InitRoutes() *gin.Engine {
 			auth.POST("/login", h.Login)
 			auth.POST("/register", h.Register)
 		}
-		todos := api.Group("/todos")
+		todos := api.Group("/todos", h.userIdentity)
 		{
 			todos.GET("/", h.getAllTodos)
 			todos.POST("/", h.createTodo)
