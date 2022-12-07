@@ -1,6 +1,6 @@
 import React from 'react';
 
-const QA = () => {
+export default function QA() {
     return (
         <div className='bg-[#1E1F21] py-[100px] '>
             <div className='laptop:flex laptop:max-w-7xl laptop:mx-auto laptop:mb-[140px] pb-4'>
@@ -71,5 +71,3 @@ const QA = () => {
 </div>
     );
 };
-
-export default QA;
