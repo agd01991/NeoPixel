@@ -6,7 +6,9 @@ export default function UsageSpheresMob() {
                 Сферы применения
             </h2>
             <div className=' text-md text-[#CECECE] w-md pl-[10px] laptop:text-[18px] laptop:leading-[27px] laptop:w-[800px]'>
-                <div className=''>Фотополимерная печать используется в тех отраслях, где подходит по следующим факторам: качество, точность построения, физические свойства и максимальные габариты создаваемого изделия</div>
+                <div className=''>
+                    Фотополимерная печать используется в тех отраслях, где подходит по следующим факторам: качество, точность построения, физические свойства и максимальные габариты создаваемого изделия
+                </div>
                 <div className='grid grid-rows-3 laptop:grid-cols-3 whitespace-nowrap pt-[10px] pl-[10px]'>
                     <ul className='sf font-normal laptop:font-bold'>
                         <li>ювелирное дело</li>
