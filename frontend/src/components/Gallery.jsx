@@ -18,8 +18,6 @@ export default function Gallery() {
             <div className='text-white flex max-w-7xl mx-auto mb-[140px] border-b-4 border-white-600 p-[10px] text-2xl place-content-between'>
                 <div>Gallery</div>
                 <div>----</div>
-                <div class="swiper-button-next">Next</div>
-                <div class="swiper-button-prev">Prev</div>
             </div>
             <Swiper slidesPerView={3} spaceBetween={30} slidesPerGroup={3} loop={true} loopFillGroupWithBlank={true} pagination={{clickable: true,}} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">
                 <SwiperSlide><img src={require('../assets/events/event1.jpg')} alt="" /></SwiperSlide>
